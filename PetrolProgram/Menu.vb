@@ -10,6 +10,7 @@
 
     Private Sub btnDebug_Click(sender As Object, e As EventArgs) Handles btnDebug.Click
         Debug.Show()
+        MessageBox.Show("OneForm")
         Me.Close()
     End Sub
 
